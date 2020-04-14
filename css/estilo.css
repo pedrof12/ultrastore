@@ -1,0 +1,476 @@
+/* 
+
+Estilo feito por João Pedro A. Freitas
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body 
+{
+    background: #0E1013;
+    font-family: 'Poppins', sans-serif;
+}
+
+*::selection
+{
+    background: rgb(131, 131, 167);
+}
+
+.card:hover
+{
+    transform: scale(1.015);
+    transition: .4s;
+}
+
+/* 
+* Scrollbar
+*/
+
+::-webkit-scrollbar 
+{
+    width: 5px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track 
+{
+    background-color: #090E19;
+    border-radius: 1.5px;
+}
+
+::-webkit-scrollbar-thumb 
+{
+    background-color: #4747c0;
+    border-radius: 1.5px;
+}
+
+::-webkit-scrollbar-thumb:hover 
+{
+    background-color: #4747c0;
+}
+
+/* 
+*  Banner
+*/
+
+.top_banner 
+{
+    height: 474px;
+}
+
+.top_banner .banner_c
+{
+    width: 100%;
+    height: 474px;
+    position: relative;
+}
+
+.top_banner .banner
+{
+    width: 100%;
+    height: 474px;
+    background: url("../img/bg.svg") bottom no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+
+/* 
+
+Menu
+
+*/
+
+.menu .nav-item 
+{
+    margin: 0 10px;
+}
+
+.menu .nav-link
+{
+    color: #A6AEB5;
+    font-size: 17px;
+}
+
+.menu .active 
+{
+    color: #315BBC;
+}
+
+.top_banner h2 
+{
+    color: #c6c9cf;
+    margin-top: 64px;
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 58px;
+}
+
+.top_banner .btn_produtos 
+{
+    color: #D8D5D5;
+    font-size: 16px;
+    background: #315BBC;
+    border: 2px solid #315BBC;
+    border-radius: 4px;
+    font-weight: 300;
+    padding: 12px 35px;
+    text-decoration: none;
+}
+
+.top_banner .btn_produtos:hover
+{
+    background: transparent;
+    transition: .4s;
+}
+
+.top_banner .btn_produtos img 
+{
+    margin-left: 10px;
+}
+
+.top_banner .vector 
+{
+    margin-left: 100px;
+}
+
+/* 
+
+Features
+
+*/
+
+.features
+{
+    margin-top: 100px;
+}
+
+.features h3 
+{
+    color: #526CAA;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.features p 
+{
+    color: #5b5f69;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+/* 
+
+Produtos
+
+*/
+
+.produtos 
+{
+    margin-top: 90px;
+}
+
+.produtos h2
+{
+    color: #315BBC;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.produtos p
+{
+    color: #747B8B;
+    font-size: 18px;
+    margin-top: 0px;
+}
+
+.produtos .hr_title
+{
+    border-color: #315BBC;
+    border: 1px solid #315BBC;
+    width: 140px;
+    border-radius: 1px;
+    margin-bottom: 85px;
+}
+
+.produtos .card
+{
+    background: #111417;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 4px;
+    height: 458px;
+    margin-bottom: 110px;
+    padding-top: 52px;
+}
+
+.produto .card_icon
+{
+    margin-top: -100px;
+    margin: 0 auto;
+}
+
+.produtos .card_img
+{
+    width: 174px;
+    position: absolute;
+    left: 24%;
+    margin: -110px auto;
+}
+
+.produtos .card_title
+{
+    color: #315BBC;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.produtos .card_price h4 
+{
+    color: #315BBC;
+    margin-top: 14px;
+    font-size: 48px;
+}
+
+.produtos .card_price small
+{
+    font-size: 34px;
+    margin: 12px;
+    font-weight: 400;
+}
+
+.produtos .card_infos
+{
+   margin-left: 18px;
+   margin-top: 15px;
+   margin-bottom: 15px;
+}
+
+.produtos .card_hr
+{
+    border: 1px solid #1B1F23;
+    width: 104px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.produtos .card_infos ul li img 
+{
+    margin-right: 2px;
+}
+
+.produtos .card_infos ul li
+{
+    list-style-type: none;
+    padding: 8px;
+    font-size: 16px;
+    color: #5A6067;
+}
+
+.produtos .btn_comprar img 
+{
+    margin-top: -2px;
+    margin-right: 4px;
+}
+
+.produtos .btn_comprar 
+{
+    color: #315BBC;
+    font-size: 18px;
+    border: 2px solid #315BBC;
+    border-radius: 4px;
+    margin-top: 8px;
+    padding: 9px 22px;
+    text-decoration: none;
+}
+
+.produtos .btn_comprar:hover
+{
+    font-size: 18px;
+    border: 2px solid #315BBC;
+    border-radius: 4px;
+    margin-top: 8px;
+    text-decoration: none;
+    animation: pop 0.3s linear 1;
+}
+
+.produtos .no_v
+{
+    display: none;
+}
+
+.produtos .ye_v
+{
+    display: flex;
+}
+
+.produtos .selector
+{
+    padding: 12px;
+    background: transparent;
+    border: 2px solid #315BBC;
+    margin: 0 10px;
+    border-radius: 4px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #747B8B;
+    cursor: pointer;
+}
+
+.produtos .selector:hover
+{
+    transform: scale(1.08);
+}
+
+.produtos .selector:hover,
+.produtos .actived
+{
+    padding: 12px;
+    background: #315BBC;
+    border: 2px solid #315BBC;
+    margin: 0 10px;
+    border-radius: 4px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #D8D5D5;
+    cursor: pointer;
+    transition: .6s;
+}
+
+.actived
+{
+    transition: 2s;
+}
+
+
+@keyframes pop
+{
+    50%  {transform: scale(1.2);}
+}
+
+/* 
+
+Faqs
+
+*/
+
+.faqs
+{
+    margin-top: -15px;
+}
+
+.faqs h2
+{
+    color: #315BBC;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.faqs p
+{
+    color: #747B8B;
+    font-size: 18px;
+    margin-top: 0px;
+}
+
+.faqs .hr_title
+{
+    border-color: #315BBC;
+    border: 1px solid #315BBC;
+    width: 140px;
+    border-radius: 1px;
+    margin-bottom: 90px;
+}
+
+.faqs .card
+{
+    background: #111417;
+    padding: 26px;
+    width: 100%;
+    height: auto;
+    border-bottom: 2.5px solid #315BBC;
+    margin-bottom: 50px;
+}
+
+.faqs p::selection
+{
+    background: rgb(131, 131, 167);
+}
+
+.faqs h3 
+{
+    color: #ACBECF;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.faqs .card p 
+{
+    color: #3A4046;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 12px;
+}
+
+/* 
+
+Footer
+
+*/
+
+.footer
+{
+    margin-top: 30px;
+}
+
+.footer footer
+{
+    width: 100%;
+    height: 140px;
+    background: url("../img/footer.svg") top no-repeat;
+    background-size: cover;
+    padding-top: 65px;
+}
+
+.footer h2 
+{
+    color: #858D95;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.footer h3 
+{
+    color: #676E75;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+.footer a 
+{
+    color: #315BBC;
+    text-decoration: underline;
+}
+
+.cd-top
+{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    height: 45px;
+    width: 45px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    background: url("../img/cd-top-arrow.svg") no-repeat center 50%;
+    background-color: #4747c0;
+}
+
+iframe
+{
+    bottom: 120px!important;
+    right: 120px!important;
+}

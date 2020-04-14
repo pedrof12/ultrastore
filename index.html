@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Importantes -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.discordapp.com/emojis/690714238594973807.png?v=1" rel="icon">
+
+    <!-- Publicidade -->
+    <meta name="description" content="A melhor loja do mercado, com produtos incríveis por preços especiais.">
+    <meta name="keywords" content="UltraStore, Ultra Store, store, minecraft, loja, barata">
+    <meta name="author" content="PedroF.">
+
+    <!-- Livrarias externas  -->
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="stylesheet" href="lib/trusty/css/base.css">
+
+    <!-- Estilizações do projeto -->
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <title>Ultra Store - A melhor loja do mercado, com produtos incríveis por preços especiais.</title>
+</head>
+<body>
+    
+    <!-- Início banner -->
+    <section class="top_banner">
+        <div class="banner-c">
+            <div class="banner">
+                <div class="container">
+                    <div class="menu">
+                        <nav class="navbar navbar-expand-lg">
+                            <a class="navbar-brand" href="#"><img src="img/us3.png" alt="us3"></a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                              <span class="navbar-toggler-icon"></span>
+                            </button>
+                          
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="#">Início</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#produtos">Produtos</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="https://discord.gg/ReM6PrV">Contato</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 col-lg-6">
+                            <h2>
+                                A melhor loja do mercado, com produtos incríveis.
+                            </h2>
+                            <a href="#produtos" class="btn_produtos">Produtos <img src="img/Icon feather-arrow-right.svg" alt=""></a>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-6 d-none d-lg-block">
+                            <img class="vector" src="img/undraw_shopping_app_flsj.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fim banner -->
+
+    <!-- Início features -->
+    <section class="features">
+        <div class="container">
+            <div class="row">
+                <div data-aos="fade-left" data-aos-duration="750" style="margin-top: 5px;" class="col-sm-12 col-md-6 col-lg-4 text-center">
+                    <img src="img/Icon_awesome-truck.svg" alt="">
+                    <h3>
+                        Rápida entrega
+                    </h3>
+                    <p>
+                        Entregamos o seu produto muito rápido, ao nível do flash.
+                    </p>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="750" class="col-sm-12 col-md-6 col-lg-4 text-center">
+                    <img src="img/Icon_material-security.svg" alt="">
+                    <h3>
+                        Compra segura
+                    </h3>
+                    <p>
+                        A compra é sempre feita pelo mercado pago.
+                    </p>
+                </div>
+                <div data-aos="fade-right" data-aos-duration="750" class="col-sm-12 col-md-6 col-lg-4 text-center">
+                    <img src="img/Icon_awesome-phone-alt.svg" alt="">
+                    <h3>
+                        Suporte eficaz
+                    </h3>
+                    <p>
+                        Prestamos o melhor suporte à você cliente e usuário.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fim features -->
+
+    <!-- Início produtos -->
+    <section class="produtos" id="produtos"  data-aos-duration="1800" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+        <div class="container">
+            <h2 class="text-center">Produtos</h2>
+            <p class="text-center">Nossos produtos prontos para à compra.</p>
+            <hr class="text-center hr_title">
+
+            <div style="margin-bottom: 100px;" class="category productSelection text-center">
+                <button id="selector-entretenimento" class="selector actived">
+                    Entretenimento
+                </button>
+
+                <button id="selector-minecraft" class="selector">
+                    Minecraft
+                </button>
+    
+                <button id="selector-discord" class="selector">
+                    Discord
+                </button>
+
+                <button id="selector-jogos" class="selector">
+                    Jogos
+                </button>
+
+                <button id="selector-conexao" class="selector">
+                    Conexão
+                </button>
+            </div>
+
+            <div id="section-minecraft" class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card_icon">
+                            <img class="card_img" src="img/full.png" alt="">
+                        </div>
+                        <div class="card_title">Minecraft-SFA</div>
+                        <div class="card_price text-center">
+                            <h4><small>R$</small>3<small>,00</small></h4>
+                        </div>
+                        <hr class="card_hr">
+                        <div class="card_infos">
+                            <ul>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Pode trocar Nick</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Pode trocar Senha</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Pode trocar Skin</li>
+                                <li><img src="img/Icon_material-close.svg" alt=""> Perguntas de segurança</li>
+                            </ul>
+                        </div>
+                        <div class="text-center">
+                            <a href="https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=497330011-e3d120cb-6dc3-4283-8086-9aef2a784cea" class="btn_comprar"><img src="img/Icon_awesome-cart-plus.svg" alt=""> Comprar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card_icon">
+                            <img style="width: 80px; position: absolute; left: 38%;" class="card_img" src="img/capa-da-off.jpg" alt="">
+                        </div>
+                        <div class="card_title">Capa da Of</div>
+                        <div class="card_price text-center">
+                            <h4><small>R$</small>35<small>,00</small></h4>
+                        </div>
+                        <hr class="card_hr">
+                        <div class="card_infos">
+                            <ul>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Só sua</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Acesso ao painel</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Persolnalizar cores</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Enviar a um amigo</li>
+                            </ul>
+                        </div>
+                        <div class="text-center">
+                            <a href="https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=497330011-8227619f-16a0-4159-bf65-cc050b440768" class="btn_comprar"><img src="img/Icon_awesome-cart-plus.svg" alt=""> Comprar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card_icon">
+                            <img class="card_img" src="img/minecon.png" alt="">
+                        </div>
+                        <div class="card_title">Capa da Minecon</div>
+                        <div class="card_price text-center">
+                            <h4><small>R$</small>220<small>,00</small></h4>
+                        </div>
+                        <hr class="card_hr">
+                        <div class="card_infos">
+                            <ul>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Totalmente própria</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> 2014, 2016, 2017, 2018 e 2019</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Costumizações de cor</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Painel da Minecon</li>
+                            </ul>
+                        </div>
+                        <div class="text-center">
+                            <a href="https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=497330011-8227619f-16a0-4159-bf65-cc050b440768" class="btn_comprar"><img src="img/Icon_awesome-cart-plus.svg" alt=""> Comprar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card_icon">
+                            <img class="card_img" src="img/full_1.png" alt="">
+                        </div>
+                        <div class="card_title">Minecraft-FULL</div>
+                        <div class="card_price text-center">
+                            <h4><small>R$</small>35<small>,00</small></h4>
+                        </div>
+                        <hr class="card_hr">
+                        <div class="card_infos">
+                            <ul>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Pode trocar Nick</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Pode trocar Email</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Pode trocar Senha</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Pode trocar Skin</li>
+                            </ul>
+                        </div>
+                        <div class="text-center">
+                            <a href="https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=497330011-4e60799e-3272-4200-a5a1-9d09169a6231" class="btn_comprar"><img src="img/Icon_awesome-cart-plus.svg" alt=""> Comprar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card_icon">
+                            <img style="width: 80px; position: absolute; left: 37%;" class="card_img" src="img/combo.png" alt="">
+                        </div>
+                        <div class="card_title">Ultra Pack</div>
+                        <div class="card_price text-center">
+                            <h4><small>R$</small>45<small>,00</small></h4>
+                        </div>
+                        <hr class="card_hr">
+                        <div class="card_infos">
+                            <ul>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Pode trocar Nick</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Pode trocar Email</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Banners na capa</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Customização de cor</li>
+                            </ul>
+                        </div>
+                        <div class="text-center">
+                            <a href="https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=497330011-3a355797-fc6f-46aa-ab2e-8a42925ec8c0" class="btn_comprar"><img src="img/Icon_awesome-cart-plus.svg" alt=""> Comprar</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="section-discord" class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card_icon">
+                            <img class="card_img" style="width: 100px; position: absolute; left: 36%; top: 90px;" src="img/674739129929564181.png" alt="">
+                        </div>
+                        <div class="card_title">Nitro Classic</div>
+                        <div class="card_price text-center">
+                            <h4><small>R$</small>16<small>,00</small></h4>
+                        </div>
+                        <hr class="card_hr">
+                        <div class="card_infos">
+                            <ul>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Um mês de nitro</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Emojis personalizados</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Gif no perfil</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Perfil destacado</li>
+                            </ul>
+                        </div>
+                        <div class="text-center">
+                            <a href="https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=497330011-f61bc26d-a6c5-49e6-83b7-33df7e44fe06" class="btn_comprar"><img src="img/Icon_awesome-cart-plus.svg" alt=""> Comprar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card_icon">
+                            <img style="width: 40px; position: absolute; left: 45%;" class="card_img" src="img/656850248454373395.gif" alt="">
+                        </div>
+                        <div class="card_title">Nitro Boost</div>
+                        <div class="card_price text-center">
+                            <h4><small>R$</small>27<small>,00</small></h4>
+                        </div>
+                        <hr class="card_hr">
+                        <div class="card_infos">
+                            <ul>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Impulsionar servidores</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> 2 impulsos inclusos</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Gif no perfil</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Perfil destacado</li>
+                            </ul>
+                        </div>
+                        <div class="text-center">
+                            <a href="https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=497330011-27964725-a23d-44cd-8afe-735e22fb54a5" class="btn_comprar"><img src="img/Icon_awesome-cart-plus.svg" alt=""> Comprar</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="section-entretenimento" class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card_icon">
+                            <img class="card_img" style="width: 100px; position: absolute; left: 36%; top: 60px;" src="img/netflix.png" alt="">
+                        </div>
+                        <div class="card_title">Netflix</div>
+                        <div class="card_price text-center">
+                            <h4><small>R$</small>20<small>,00</small></h4>
+                        </div>
+                        <hr class="card_hr">
+                        <div class="card_infos">
+                            <ul>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Qualidade Ultra HD</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> 4 Telas simultâneas</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Pode mudar tudo</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Duração de 1 mês</li>
+                            </ul>
+                        </div>
+                        <div class="text-center">
+                            <a href="https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=497330011-e5a1b34f-cd56-48e1-844e-9c700c8e2d76" class="btn_comprar"><img src="img/Icon_awesome-cart-plus.svg" alt=""> Comprar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card_icon">
+                            <img style="width: 60px; position: absolute; left: 42%; top: 75px;" class="card_img" src="img/Spotify.png" alt="">
+                        </div>
+                        <div class="card_title">Spotify</div>
+                        <div class="card_price text-center">
+                            <h4><small>R$</small>15<small>,00</small></h4>
+                        </div>
+                        <hr class="card_hr">
+                        <div class="card_infos">
+                            <ul>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Música sem anúncios</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Ouvir música offline</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Alta qualidade de áudio</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Duração permanente</li>
+                            </ul>
+                        </div>
+                        <div class="text-center">
+                            <a href="https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=497330011-c2fd75a0-34bf-4200-ba97-5110975af8e7" class="btn_comprar"><img src="img/Icon_awesome-cart-plus.svg" alt=""> Comprar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card_icon">
+                            <img style="width: 60px; position: absolute; left: 42%; top: 75px;" class="card_img" src="img/telecine.png" alt="">
+                        </div>
+                        <div class="card_title">TeleCine</div>
+                        <div class="card_price text-center">
+                            <h4><small>R$</small>29<small>,00</small></h4>
+                        </div>
+                        <hr class="card_hr">
+                        <div class="card_infos">
+                            <ul>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Acesso a plataforma</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Ultra HD disponível</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Pode mudar tudo</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Duração de 1 mês</li>
+                            </ul>
+                        </div>
+                        <div class="text-center">
+                            <a href="https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=497330011-10c7c2ae-f4ff-475d-8fa5-1186c084a19b" class="btn_comprar"><img src="img/Icon_awesome-cart-plus.svg" alt=""> Comprar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card_icon">
+                            <img style="width: 120px; position: absolute; left: 35%; top: 110px;" class="card_img" src="img/globo.png" alt="">
+                        </div>
+                        <div class="card_title">GloboPlay</div>
+                        <div class="card_price text-center">
+                            <h4><small>R$</small>16<small>,00</small></h4>
+                        </div>
+                        <hr class="card_hr">
+                        <div class="card_infos">
+                            <ul>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Globo ao vivo</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Séries internacionais</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> O melhor do cinema</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Pode Mudar Tudo</li>
+                            </ul>
+                        </div>
+                        <div class="text-center">
+                            <a href="https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=497330011-931e4116-26cf-4300-8819-48cfd652d980" class="btn_comprar"><img src="img/Icon_awesome-cart-plus.svg" alt=""> Comprar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card_icon">
+                            <img style="width: 100px; position: absolute; left: 36%; top: 100px;" class="card_img" src="img/amazon.png" alt="">
+                        </div>
+                        <div class="card_title">Amazon</div>
+                        <div class="card_price text-center">
+                            <h4><small>R$</small>10<small>,00</small></h4>
+                        </div>
+                        <hr class="card_hr">
+                        <div class="card_infos">
+                            <ul>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> A Prime Video, Amazon Music...</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Acesso Total</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Conta privada</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Duração de 1 mês</li>
+                            </ul>
+                        </div>
+                        <div class="text-center">
+                            <a href="https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=497330011-8864cc6a-624c-46d7-b1fb-c0066d38d091" class="btn_comprar"><img src="img/Icon_awesome-cart-plus.svg" alt=""> Comprar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card_icon">
+                            <img style="width: 70px; position: absolute; left: 41%; top: 85px;" class="card_img" src="img/crunchyroll.png" alt="">
+                        </div>
+                        <div class="card_title">Crunchyroll</div>
+                        <div class="card_price text-center">
+                            <h4><small>R$</small>10<small>,00</small></h4>
+                        </div>
+                        <hr class="card_hr">
+                        <div class="card_infos">
+                            <ul>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Acesso a plataforma </li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Ver Animes sem Limite</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Conta privada</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Duração de 1 mês</li>
+                            </ul>
+                        </div>
+                        <div class="text-center">
+                            <a href="https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=497330011-6f2fa66b-88f1-43a3-8df7-a223ef499d40" class="btn_comprar"><img src="img/Icon_awesome-cart-plus.svg" alt=""> Comprar</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="section-jogos" class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card_icon">
+                            <img class="card_img" style="width: 70px; position: absolute; left: 39%; top: 90px;" src="img/Prime-2.png" alt="">
+                        </div>
+                        <div class="card_title">Steam com Prime</div>
+                        <div class="card_price text-center">
+                            <h4><small>R$</small>60<small>,00</small></h4>
+                        </div>
+                        <hr class="card_hr">
+                        <div class="card_infos">
+                            <ul>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Prime comun</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Level 21 no CS:GO</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Medalha da lealdade</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Só sua</li>
+                            </ul>
+                        </div>
+                        <div class="text-center">
+                            <a href="https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=497330011-06c0c454-6aaf-4f26-91ec-9c7ae2b70200" class="btn_comprar"><img src="img/Icon_awesome-cart-plus.svg" alt=""> Comprar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card_icon">
+                            <img style="width: 70px; position: absolute; left: 43%; top: 86px;" class="card_img" src="img/stean.png" alt="">
+                        </div>
+                        <div class="card_title">Key Aleatória Steam</div>
+                        <div class="card_price text-center">
+                            <h4><small>R$</small>5<small>,00</small></h4>
+                        </div>
+                        <hr class="card_hr">
+                        <div class="card_infos">
+                            <ul>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Jogos de qualquer valor</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Contas além da sua</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Entregamos na hora</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Key única</li>
+                            </ul>
+                        </div>
+                        <div class="text-center">
+                            <a href="https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=497330011-f2cf9466-0a1f-4ced-be1b-867d19fe8570" class="btn_comprar"><img src="img/Icon_awesome-cart-plus.svg" alt=""> Comprar</a>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card_icon">
+                            <img class="card_img" style="width: 70px; position: absolute; left: 39%; top: 90px;" src="img/origin.png" alt="">
+                        </div>
+                        <div class="card_title">Key Aleatória Origin</div>
+                        <div class="card_price text-center">
+                            <h4><small>R$</small>2<small>,50</small></h4>
+                        </div>
+                        <hr class="card_hr">
+                        <div class="card_infos">
+                            <ul>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Jogos Pagos</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Conta apénas sua</li>
+                                <li><img src="img/Icon_material-close.svg" alt=""> Mudar Email</li>
+                                <li><img src="img/Icon_material-close.svg" alt=""> Mudar Senha</li>
+                            </ul>
+                        </div>
+                        <div class="text-center">
+                            <a href="https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=497330011-12fb99cd-90eb-4b21-93ba-09a8e226d24e" class="btn_comprar"><img src="img/Icon_awesome-cart-plus.svg" alt=""> Comprar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card_icon">
+                            <img class="card_img" style="width: 70px; position: absolute; left: 39%; top: 90px;" src="img/stean.png" alt="">
+                        </div>
+                        <div class="card_title">Pacote de jogos</div>
+                        <div class="card_price text-center">
+                            <h4><small>R$</small>60<small>,00</small></h4>
+                        </div>
+                        <hr class="card_hr">
+                        <div class="card_infos">
+                            <ul>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Varios Jogos</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Pode mudar senha</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Contém VacBan</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Pode mudar e-mail</li>
+                            </ul>
+                        </div>
+                        <div class="text-center">
+                            <a href="https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=497330011-ae711a22-e66b-4f55-8892-69308632f023" class="btn_comprar"><img src="img/Icon_awesome-cart-plus.svg" alt=""> Comprar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card_icon">
+                            <img class="card_img" style="width: 70px; position: absolute; left: 39%; top: 90px;" src="img/gta_v.png" alt="">
+                        </div>
+                        <div class="card_title">GTA V</div>
+                        <div class="card_price text-center">
+                            <h4><small>R$</small>40<small>,00</small></h4>
+                        </div>
+                        <hr class="card_hr">
+                        <div class="card_infos">
+                            <ul>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Vem com o Gta V</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Pode mudar e-mail</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Pode mudar nome</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Pode mudar senha</li>
+                            </ul>
+                        </div>
+                        <div class="text-center">
+                            <a href="https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=497330011-93984e28-f978-40c3-9526-a80ce43c731f" class="btn_comprar"><img src="img/Icon_awesome-cart-plus.svg" alt=""> Comprar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card_icon">
+                            <img class="card_img" style="width: 100px; position: absolute; left: 36%; top: 90px;" src="img/rd2.png" alt="">
+                        </div>
+                        <div class="card_title">Red Dead Redemption 2</div>
+                        <div class="card_price text-center">
+                            <h4><small>R$</small>150<small>,00</small></h4>
+                        </div>
+                        <hr class="card_hr">
+                        <div class="card_infos">
+                            <ul>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Vem com o RD2</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Pode mudar e-mail</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Pode mudar nome</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Pode mudar senha</li>
+                            </ul>
+                        </div>
+                        <div class="text-center">
+                            <a href="https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=497330011-7b0fdf17-32f2-4687-b433-8b9208f24e12" class="btn_comprar"><img src="img/Icon_awesome-cart-plus.svg" alt=""> Comprar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card_icon">
+                            <img class="card_img" style="width: 100px; position: absolute; left: 36%; top: 90px;" src="img/f1.png" alt="">
+                        </div>
+                        <div class="card_title">Battlefield 1</div>
+                        <div class="card_price text-center">
+                            <h4><small>R$</small>25<small>,00</small></h4>
+                        </div>
+                        <hr class="card_hr">
+                        <div class="card_infos">
+                            <ul>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Vem com o BF1</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Pode mudar e-mail</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Pode mudar nome</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Pode mudar senha</li>
+                            </ul>
+                        </div>
+                        <div class="text-center">
+                            <a href="https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=497330011-fc611184-2868-4a89-8b79-f9c1ea5483ad" class="btn_comprar"><img src="img/Icon_awesome-cart-plus.svg" alt=""> Comprar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card_icon">
+                            <img class="card_img" style="width: 100px; position: absolute; left: 36%; top: 90px;" src="img/F2.png" alt="">
+                        </div>
+                        <div class="card_title">Battlefield V</div>
+                        <div class="card_price text-center">
+                            <h4><small>R$</small>50<small>,00</small></h4>
+                        </div>
+                        <hr class="card_hr">
+                        <div class="card_infos">
+                            <ul>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Vem com o BF5</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Pode mudar e-mail</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Pode mudar nome</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Pode mudar senha</li>
+                            </ul>
+                        </div>
+                        <div class="text-center">
+                            <a href="https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=497330011-bf1069b9-e750-4152-b57e-76001ce5807c" class="btn_comprar"><img src="img/Icon_awesome-cart-plus.svg" alt=""> Comprar</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="section-conexao" class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card_icon">
+                            <img class="card_img" style="width: 100px; position: absolute; left: 36%; top: 90px;" src="img/nordvpn-square-300x254.png" alt="">
+                        </div>
+                        <div class="card_title">NordVpn</div>
+                        <div class="card_price text-center">
+                            <h4><small>R$</small>2<small>,50</small></h4>
+                        </div>
+                        <hr class="card_hr">
+                        <div class="card_infos">
+                            <ul>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Duração de até 1 ano</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Email e senha para login</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Acesso a o painel</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Ótima conexão</li>
+                            </ul>
+                        </div>
+                        <div class="text-center">
+                            <a href="https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=497330011-426f5ddc-60d5-4b68-b88c-717d48e4270d" class="btn_comprar"><img src="img/Icon_awesome-cart-plus.svg" alt=""> Comprar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card_icon">
+                            <img style="width: 70px; position: absolute; left: 40%; top: 75px;" class="card_img" src="img/express.png" alt="">
+                        </div>
+                        <div class="card_title">ExpressVPN</div>
+                        <div class="card_price text-center">
+                            <h4><small>R$</small>50<small>,00</small></h4>
+                        </div>
+                        <hr class="card_hr">
+                        <div class="card_infos">
+                            <ul>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Duração de 6 meses</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Conexão impecável</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Todos os países liberados</li>
+                                <li><img src="img/Icon_awesome-check.svg" alt=""> Conexão direta</li>
+                            </ul>
+                        </div>
+                        <div class="text-center">
+                            <a href="https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=497330011-6fead25f-8ce5-468e-880a-812a6b62b225" class="btn_comprar"><img src="img/Icon_awesome-cart-plus.svg" alt=""> Comprar</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- Fim produtos -->
+
+    <!-- Início faqs -->
+    <section class="faqs">
+        <div class="container">
+            <h2 data-aos-duration="800" data-aos="fade-up" data-aos-anchor-placement="top-bottom" class="text-center">Perguntas</h2>
+            <p data-aos-duration="800" data-aos="fade-up" data-aos-anchor-placement="top-bottom" class="text-center">Perguntas feitas com frequência</p>
+            <hr data-aos-duration="800" data-aos="fade-up" data-aos-anchor-placement="top-bottom" class="text-center hr_title">
+
+            <div class="row">
+                <div data-aos="fade-right" data-aos-duration="950" class="col-sm-12 col-md-12 col-lg-6">
+                    <div class="card">
+                        <h3>
+                            Como eu recebo o meu produto?
+                        </h3>
+                        <p>
+                            Após a compra ser confirmada, entregaremos a sua conta pelo e-mail que usou para fazer o pagamento. Por tanto,  temos um prazo de 2 dias para ser entregue.
+                        </p>
+                    </div>
+                </div>
+
+                <div data-aos="fade-left" data-aos-duration="950" class="col-sm-12 col-md-12 col-lg-6">
+                    <div class="card">
+                        <h3>
+                            Oque faço se tiver problemas com o produto?
+                        </h3>
+                        <p>
+                            Basta entrar em contato, temos várias maneiras, a mais usada é o discord, você pode entrar em nosso discord e chamar um de nossos suportes.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Fim faqs -->
+
+    <!-- Início footer -->
+    <section class="footer">
+        <footer>
+            <div class="text-center">
+                <h2>
+                    UltraStore - Todos os direitos reservados.
+                </h2>
+                <h3>
+                    Desenvolvido por <a href="https://www.lunarcodes.com.br">LunarCodes</a>.
+                </h3>
+            </div>
+        </footer>
+    </section>
+    <!-- Fim footer -->
+
+    <a href="#" class="cd-top text-replace js-cd-top"></a>
+
+    <!-- Scripts -->
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="js/back-top-top.js"></script>
+    <script src="js/category.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        
+        $("#email").on("change", () => {
+            $("#email_text").html($("#email").val());
+        });
+
+        $("#senha").on("change", () => {
+            $("#senha_text").html($("#senha").val());
+        });
+    </script>
+
+</body>
+</html>
